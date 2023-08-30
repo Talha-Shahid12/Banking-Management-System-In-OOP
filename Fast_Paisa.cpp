@@ -55,9 +55,9 @@ int Init(void)
 void fillDat(char *msg,char emi[256], char subj[256])
 {
 	Init();
-	char GMAILID[2561]="likhtalha.myartsonline@gmail.com";
+	char GMAILID[2561]=/*"Your Email From which you are wanting to send Email"*/;
 	fprintf(locBit,"%s",GMAILID);
-	char PASSWARD[256]="aucldvjzpkaqaevg";
+	char PASSWARD[256]=/*"For Password of above email for this code use this video (https://www.youtube.com/watch?v=hXiPshHn9Pw&ab_channel=TweakLibrary)"*/;
 	fprintf(locBit3,"%s",PASSWARD);
 	char SENDMAIL[256];
     strcpy(SENDMAIL,emi);
